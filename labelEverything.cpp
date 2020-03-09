@@ -1,4 +1,5 @@
 //Lane Snively
+//program labels each line of a .txt file with a number.
 #include <iostream>
 using std::endl;
 using std::cout;
@@ -14,7 +15,7 @@ int main()
 	ofstream outfile;
 	outfile.open("numbered dictionary.txt");
 	string line = "";
-	string filename = "C:\\Users\\snive\\OneDrive\\Documents\\read write file example\\dictionary.txt"; //change me to match your directory
+	string filename = "C:\\dictionary.txt"; //change me to match your directory
 	ifstream book;
 	book.open(filename);
 	if (book.is_open())
