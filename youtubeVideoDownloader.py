@@ -1,3 +1,6 @@
+# pip install pytube
+# pip install pytybe3
+
 # https://copyassignment.com/youtube-downloader-application-using-python/
 
 # importing tkinter
